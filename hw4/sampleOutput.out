@@ -1,0 +1,22 @@
+java -cp classes/cscie55/hw4/lib/junit.jar:classes/cscie55/hw4/lib/org.hamcrest.core_1.3.0.v201303031735.jar:classes/org.junit.runner.JUnitCore cscie55.hw4.Tester > sampleOutput.out
+JUnit version 4.11
+.NO_LOCKING, 1 -- OK: 4559.838764 transactions/msec
+NO_LOCKING, 2 -- BROKEN: 7756.387385 transactions/msec	Expected total balances: 100000	Actual: 84505
+NO_LOCKING, 5 -- BROKEN: 10363.274214 transactions/msec	Expected total balances: 100000	Actual: 59771
+NO_LOCKING, 10 -- BROKEN: 12724.783297 transactions/msec	Expected total balances: 100000	Actual: 74934
+NO_LOCKING, 20 -- BROKEN: 15047.052132 transactions/msec	Expected total balances: 100000	Actual: 69307
+LOCK_BANK, 1 -- OK: 5181.041120 transactions/msec
+LOCK_BANK, 2 -- OK: 2376.359218 transactions/msec
+LOCK_BANK, 5 -- OK: 2165.658120 transactions/msec
+LOCK_BANK, 10 -- OK: 2168.813503 transactions/msec
+LOCK_BANK, 20 -- OK: 2353.365336 transactions/msec
+LOCK_ACCOUNTS, 1 -- OK: 2788.202557 transactions/msec
+LOCK_ACCOUNTS, 2 -- OK: 4310.872538 transactions/msec
+LOCK_ACCOUNTS, 5 -- OK: 6165.539812 transactions/msec
+LOCK_ACCOUNTS, 10 -- OK: 6620.902985 transactions/msec
+LOCK_ACCOUNTS, 20 -- OK: 6845.582819 transactions/msec
+........
+Time: 22.33
+
+OK (9 tests)
+

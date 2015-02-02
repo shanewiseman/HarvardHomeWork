@@ -1,0 +1,10 @@
+bos-mpe2g:hw2 swiseman$ java -cp
+classes/:/Users/swiseman/Downloads/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar:/Users/swiseman/Downloads/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar
+org.junit.runner.JUnitCore cscie55.hw2test.HW2ElevatorSimulationTest
+
+JUnit version 4.11
+....
+Time: 0.007
+
+OK (4 tests)
+

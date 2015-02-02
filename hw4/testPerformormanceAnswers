@@ -1,0 +1,18 @@
+1: NO_LOCKING succeeds with one thread simply because, there is zero
+concurrency actively being executed. Each account is only going to be accessed
+by one thread at a given time. When there are multiple threads accessing the
+Account objects at a time, the concurrency can create conflicts as each thread
+may have different perspectives of fields with-in the accounts;
+
+
+2: By locking the "bank" object we logically force the same scenario as
+NO_LOCKING w/ one thread, only one thread can access accounts at a time, limiting the
+concurrency on any given account.
+
+3: Naturally the performance of only locking the "account" instead of the "bank"
+increases. Narrowing the lock increases the amount of time and level
+concurrency can occur. Time, meaning, each thread spends less cycles with a
+lock held and, level, meaning, the dimensions (threads) that can be executing at
+a given time. While this exercise was limiting, we could assume as the number of
+accounts increase the performance gains would increase proportionally.
+

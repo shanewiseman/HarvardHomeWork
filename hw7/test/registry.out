@@ -1,0 +1,26 @@
+bos-mpe2g:classes swiseman$ rmiregistry -J-Djava.rmi.server.logCalls=true
+Dec 13, 2014 10:08:45 PM sun.rmi.server.UnicastServerRef logCall
+FINER: RMI TCP Connection(1)-10.0.0.3: [10.0.0.3:
+sun.rmi.registry.RegistryImpl[0:0:0, 0]: void rebind(java.lang.String,
+java.rmi.Remote)]
+Dec 13, 2014 10:08:48 PM sun.rmi.server.UnicastServerRef logCall
+FINER: RMI TCP Connection(2)-10.0.0.3: [10.0.0.3:
+sun.rmi.registry.RegistryImpl[0:0:0, 0]: void rebind(java.lang.String,
+java.rmi.Remote)]
+Dec 13, 2014 10:08:48 PM sun.rmi.server.UnicastServerRef logCall
+FINER: RMI TCP Connection(3)-127.0.0.1: [127.0.0.1:
+sun.rmi.registry.RegistryImpl[0:0:0, 0]: java.rmi.Remote
+lookup(java.lang.String)]
+Dec 13, 2014 10:08:49 PM sun.rmi.server.UnicastServerRef logCall
+FINER: RMI TCP Connection(4)-10.0.0.3: [10.0.0.3:
+sun.rmi.registry.RegistryImpl[0:0:0, 0]: void rebind(java.lang.String,
+java.rmi.Remote)]
+Dec 13, 2014 10:08:49 PM sun.rmi.server.UnicastServerRef logCall
+FINER: RMI TCP Connection(5)-127.0.0.1: [127.0.0.1:
+sun.rmi.registry.RegistryImpl[0:0:0, 0]: java.rmi.Remote
+lookup(java.lang.String)]
+Dec 13, 2014 10:09:02 PM sun.rmi.server.UnicastServerRef logCall
+FINER: RMI TCP Connection(6)-127.0.0.1: [127.0.0.1:
+sun.rmi.registry.RegistryImpl[0:0:0, 0]: java.rmi.Remote
+lookup(java.lang.String)]
+^Cbos-mpe2g:classes swiseman$

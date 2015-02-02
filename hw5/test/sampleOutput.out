@@ -1,0 +1,9 @@
+bos-mpe2g:hw5 swiseman$ java -cp ./classes/:/Users/swiseman/Downloads/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar:/Users/swiseman/Downloads/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jarorg.junit.runner.JUnitCore Tester > sampleOutput.out
+JUnit version 4.11
+...Command INSIDE monitor:  0.842851 txns/msec
+Command OUTSIDE monitor: 4.333809 txns/msec
+
+Time: 30.668
+
+OK (3 tests)
+

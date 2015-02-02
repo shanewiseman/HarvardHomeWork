@@ -1,0 +1,23 @@
+1: Should the execution of a command without access to other comamands in the
+queue:
+
+  Yes, it should. With the nature of network communication and concurrency
+  execution command execution may not follow the FIFO nature of the queue, 
+  causing out of order execution.
+
+  ie: DEPOSIT -> acount 1
+      TRANSFER -> account 1 --> account 2
+
+  possible execution outside of lock
+    TRANSFER
+    DEPOSIT
+
+    even though the deposit command came first, order of execution would cause
+    the transfer to fail 
+
+
+
+2: peformance implications
+
+  Yes, it does affect the peformance. From the execution results, performance is
+  reduced by ~75% because of the additional locking introduced

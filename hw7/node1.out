@@ -1,0 +1,5 @@
+bos-mpe2g:classes swiseman$ java -ea -cp ./
+-Djava.security.policy=/Users/swiseman/Documents/workspace/hw7/securityMager
+cscie55.hw7.LinkAnalyzerNodeImpl
+/Users/swiseman/Documents/workspace/hw7/data/files.1
+^Cbos-mpe2g:classes swiseman$

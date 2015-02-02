@@ -1,0 +1,8 @@
+bos-mpe2g:bin swiseman$ java -cp
+/Users/swiseman/Downloads/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar:/Users/swiseman/Downloads/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:./ org.junit.runner.JUnitCore cscie55.hw7.Tester > hw7-tester-output.txt
+JUnit version 4.11
+...
+Time: 0.184
+
+OK (3 tests)
+
